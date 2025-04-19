@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: mish
+batch_size:
+  value: 64
+conv_filters:
+  value:
+  - 32
+  - 64
+  - 64
+  - 32
+  - 32
+dense_neurons:
+  value: 1024
+epochs:
+  value: 15
+kernel_sizes:
+  value:
+  - 7
+  - 5
+  - 3
+  - 3
+  - 3
+learning_rate:
+  value: 0.0004562442609782716
+use_augmentation:
+  value: true

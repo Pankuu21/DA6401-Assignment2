@@ -1,0 +1,56 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "3":
+                - 2
+                - 14
+                - 23
+                - 55
+            "4": 3.11.3
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "12": 0.19.8
+            "13": windows-amd64
+activation:
+    value: mish
+batch_size:
+    value: 32
+conv_filters:
+    value:
+        - 64
+        - 128
+        - 256
+        - 256
+        - 512
+dense_neurons:
+    value: 256
+epochs:
+    value: 15
+kernel_sizes:
+    value:
+        - 7
+        - 5
+        - 3
+        - 3
+        - 3
+learning_rate:
+    value: 0.000774339735761368
+use_augmentation:
+    value: true

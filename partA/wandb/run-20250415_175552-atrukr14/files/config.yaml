@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 55
+            "3":
+                - 1
+                - 2
+                - 14
+                - 17
+                - 23
+                - 55
+            "4": 3.11.3
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "12": 0.19.8
+            "13": windows-amd64
+activation:
+    value: gelu
+batch_size:
+    value: 8
+conv_filters:
+    value:
+        - 32
+        - 64
+        - 64
+        - 32
+        - 32
+dense_neurons:
+    value: 256
+epochs:
+    value:
+        - 15
+        - 20
+        - 35
+        - 50
+kernel_sizes:
+    value:
+        - 7
+        - 5
+        - 3
+        - 3
+        - 3
+learning_rate:
+    value: 0.0009110049290362636
+use_augmentation:
+    value: false

@@ -1,0 +1,30 @@
+method: bayes
+metric:
+  name: val_acc
+  goal: maximize
+parameters:
+  conv_filters:
+    values:
+    
+      - [16, 32, 64, 64, 128]  
+      - [32, 32, 64, 64, 128]
+  kernel_sizes:
+    values:
+      - [3, 3, 3, 3, 3]
+      - [5, 5, 3, 3, 3]
+      - [7, 5, 3, 3, 3]
+      - [3, 3, 3, 5, 5]
+  activation:
+    values: [relu, gelu, silu, mish]
+  dense_neurons:
+    values: [128,256, 512]
+  use_augmentation:
+    values: [true, false]
+  learning_rate:
+    distribution: log_uniform_values
+    min: 0.0001
+    max: 0.01
+  batch_size:
+    values: [8,16, 32, 64]
+  epochs:
+    value: [15,20,35,50]

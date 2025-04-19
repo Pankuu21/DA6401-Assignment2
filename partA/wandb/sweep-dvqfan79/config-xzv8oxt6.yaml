@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: gelu
+batch_size:
+  value: 16
+conv_filters:
+  value:
+  - 64
+  - 128
+  - 256
+  - 256
+  - 512
+dense_neurons:
+  value: 512
+epochs:
+  value: 15
+kernel_sizes:
+  value:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+learning_rate:
+  value: 0.0007117385486168119
+use_augmentation:
+  value: false

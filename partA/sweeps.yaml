@@ -1,0 +1,17 @@
+# configs/sweep.yaml
+program: partA/train.py
+method: bayes
+metric:
+  name: val_acc
+  goal: maximize
+parameters:
+  filters:
+    values: [[32,32,64,64,128], [64,64,128,128,256]]
+  activation:
+    values: ["relu", "gelu"]
+  lr:
+    distribution: log_uniform
+    min: -9.21  # 1e-4
+    max: -6.91   # 1e-3
+  batch_size:
+    values: [32, 64]

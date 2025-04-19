@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: silu
+batch_size:
+  value: 32
+conv_filters:
+  value:
+  - 32
+  - 64
+  - 64
+  - 32
+  - 32
+dense_neurons:
+  value: 512
+epochs:
+  value: 15
+kernel_sizes:
+  value:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+learning_rate:
+  value: 0.005584525780277626
+use_augmentation:
+  value: true

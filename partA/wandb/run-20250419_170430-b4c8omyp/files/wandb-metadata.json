@@ -1,0 +1,40 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "CPython 3.9.7",
+  "startedAt":  "2025-04-19T11:34:30.723017Z",
+  "program":  "Desktop/dl/DL_assignment_2/DA6401-Assignment2/partA/Q4.ipynb",
+  "git":  {
+    "remote":  "https://github.com/pankuu21/DA6401-Assignment2.git",
+    "commit":  "30b9d65d86c050052c3305669ce30f65e4b13b0d"
+  },
+  "email":  "cs24m029@smail.iitm.ac.in",
+  "root":  "C:\\Users\\pankaj\\Desktop\\dl\\DL_assignment_2\\DA6401-Assignment2\\partA",
+  "host":  "Luffys-pc",
+  "executable":  "C:\\Users\\pankaj\\anaconda3\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "243958878208",
+      "used":  "234412998656"
+    }
+  },
+  "memory":  {
+    "total":  "8419024896"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "11.7"
+}
