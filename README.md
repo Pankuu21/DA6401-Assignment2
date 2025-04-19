@@ -4,6 +4,8 @@
 **Roll No.:** CS24M029
 **WandB Project:** DA6401-Assignment2
 
+
+Report Link :https://api.wandb.ai/links/cs24m029-indian-institute-of-technology-madras/sq8pfipx
 ---
 
 
